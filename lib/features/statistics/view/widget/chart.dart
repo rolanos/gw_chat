@@ -122,7 +122,7 @@ class _LineChartCustomState extends State<LineChartCustom> {
             ? AxisTitles(
                 sideTitles: SideTitles(
                   showTitles: true,
-                  reservedSize: 30,
+                  reservedSize: 4 * 11,
                   interval: max / 5,
                   getTitlesWidget: leftTitleWidgets,
                 ),

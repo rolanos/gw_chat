@@ -137,7 +137,7 @@ class SphereWidget extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              FittedBox(
+              Flexible(
                 child: Text(
                   text,
                   textAlign: TextAlign.center,
